@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    text-align: center;
+    padding-top: 160px;
+    background-image: url("imagens/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+   font-family: 'Cinzel', serif;
+
+}
+h1{
+     font-size: 64px;
+     line-height: 86px;
+     font-weight: 700;
+     padding-bottom: 20px;  
+}
+h1 span{
+    color:#DB2777;
+
+}
+h3{ 
+    font-family: 'Inter', normal;
+    color: #2C2E2F;
+    opacity: .9;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+a{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 32px;
+}
+
+.btn-readmore{
+    color:#151718;
+    text-decoration: none;
+    opacity: .8;
+    
+}
+a:hover,.btn-travelnow{
+    background-color: #DB2777;
+    border-radius: 80px;
+    text-decoration: none;
+    color:#FFFFFF;
+    
+}
